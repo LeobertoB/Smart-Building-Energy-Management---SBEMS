@@ -1,5 +1,7 @@
 version: '3.8'
 
+# TODO: Change these default passwords for production use
+
 services:
   # Main SBEMS Application
   sbems:
