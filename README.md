@@ -125,10 +125,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For questions and support:
-- 📧 Email: your.email@example.com
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/smart-building-energy-management/issues)
+- 📧 Email: leobittencourtfilho@gmail.com
 - 📖 Documentation: [Full Documentation](docs/README.md)
 
 ---
 
-**Built with ❤️ for sustainable and efficient buildings**
+**Built with pride for sustainable and efficient buildings**
