@@ -1,0 +1,45 @@
+# SBEMS Configuration
+system:
+  name: "Default Building"
+  location: "Demo Location"
+  timezone: "UTC"
+
+monitoring:
+  interval: 5  # seconds
+  data_retention_days: 30
+  max_sensors_per_zone: 20
+
+sensors:
+  hvac:
+    enabled: true
+    min_temp: 18.0
+    max_temp: 26.0
+  lighting:
+    enabled: true
+    auto_dimming: true
+  occupancy:
+    enabled: true
+    max_capacity: 100
+  energy:
+    enabled: true
+    peak_hours: [9, 17]
+
+anomaly_detection:
+  contamination: 0.1
+  min_samples: 100
+  alert_threshold: 0.8
+
+logging:
+  level: "INFO"
+  file: "logs/sbems.log"
+  max_size_mb: 10
+  backup_count: 5
+
+database:
+  type: "sqlite"  # sqlite, postgresql
+  path: "data/sbems.db"
+  # host: "localhost"
+  # port: 5432
+  # name: "sbems_db"
+  # user: "sbems"
+  # password: "password"

@@ -1,0 +1,6344 @@
+{
+  "export_timestamp": "2025-08-14T17:00:04.839766",
+  "building_info": {
+    "name": "TechCorp Headquarters",
+    "address": "123 Innovation Drive, Tech City, TC 12345",
+    "total_area": 5000.0,
+    "floors": 3
+  },
+  "monitoring_status": {
+    "is_running": false,
+    "start_time": "2025-08-14T16:58:04.782048",
+    "runtime_seconds": 120.057723,
+    "total_readings": 540,
+    "total_anomalies": 0,
+    "building_name": "TechCorp Headquarters",
+    "sensor_count": 108,
+    "zone_count": 12,
+    "recent_alerts": 0
+  },
+  "readings": [
+    {
+      "timestamp": "2025-08-14T16:58:04.782158",
+      "readings": {
+        "hvac_temp_001": {
+          "value": 27.87311615242978,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_001"
+        },
+        "hvac_humid_001": {
+          "value": 42.271144543093826,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_001"
+        },
+        "hvac_aqi_001": {
+          "value": 30.55200141817691,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_001"
+        },
+        "light_lux_001": {
+          "value": 429.33813369387536,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_001"
+        },
+        "light_energy_001": {
+          "value": 13.481540281869817,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_001"
+        },
+        "occupancy_count_001": {
+          "value": 47.12450791595822,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_001"
+        },
+        "occupancy_motion_001": {
+          "value": 8.270000000000001e-07,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_001"
+        },
+        "energy_power_001": {
+          "value": 3163.309226031864,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_001"
+        },
+        "energy_voltage_001": {
+          "value": 226.7208971157635,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_001"
+        },
+        "hvac_temp_002": {
+          "value": 27.231808119652136,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_002"
+        },
+        "hvac_humid_002": {
+          "value": 43.11003892478032,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_002"
+        },
+        "hvac_aqi_002": {
+          "value": 46.1353161404173,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_002"
+        },
+        "light_lux_002": {
+          "value": 442.72240754410234,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_002"
+        },
+        "light_energy_002": {
+          "value": 14.264646079110907,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_002"
+        },
+        "occupancy_count_002": {
+          "value": 17.921242831903058,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_002"
+        },
+        "occupancy_motion_002": {
+          "value": 8.65e-07,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_002"
+        },
+        "energy_power_002": {
+          "value": 1642.2398374909337,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_002"
+        },
+        "energy_voltage_002": {
+          "value": 226.1295772375985,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_002"
+        },
+        "hvac_temp_003": {
+          "value": 28.593472702008476,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_003"
+        },
+        "hvac_humid_003": {
+          "value": 40.744726457620395,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_003"
+        },
+        "hvac_aqi_003": {
+          "value": 53.473933693680266,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_003"
+        },
+        "light_lux_003": {
+          "value": 345.57862170222063,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_003"
+        },
+        "light_energy_003": {
+          "value": 9.730766272989099,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_003"
+        },
+        "occupancy_count_003": {
+          "value": 34.089394295558286,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_003"
+        },
+        "occupancy_motion_003": {
+          "value": 1.0004964185019802,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_003"
+        },
+        "energy_power_003": {
+          "value": 6037.217464097946,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_003"
+        },
+        "energy_voltage_003": {
+          "value": 221.71855559166457,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_003"
+        },
+        "hvac_temp_004": {
+          "value": 27.550925258673985,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_004"
+        },
+        "hvac_humid_004": {
+          "value": 49.655417889200606,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_004"
+        },
+        "hvac_aqi_004": {
+          "value": 53.97350381138454,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_004"
+        },
+        "light_lux_004": {
+          "value": 370.4279390104203,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_004"
+        },
+        "light_energy_004": {
+          "value": 6.4283953648407355,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_004"
+        },
+        "occupancy_count_004": {
+          "value": 10.02485669323657,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_004"
+        },
+        "occupancy_motion_004": {
+          "value": 9.31e-07,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_004"
+        },
+        "energy_power_004": {
+          "value": 3785.6584345062815,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_004"
+        },
+        "energy_voltage_004": {
+          "value": 227.2800206870803,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_004"
+        },
+        "hvac_temp_005": {
+          "value": 26.185664906009887,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_005"
+        },
+        "hvac_humid_005": {
+          "value": 39.85989663030582,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_005"
+        },
+        "hvac_aqi_005": {
+          "value": 59.74717407376711,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_005"
+        },
+        "light_lux_005": {
+          "value": 437.34392880529407,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_005"
+        },
+        "light_energy_005": {
+          "value": 13.444925262003764,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_005"
+        },
+        "occupancy_count_005": {
+          "value": 3.9918804323055785,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_005"
+        },
+        "occupancy_motion_005": {
+          "value": 9.68e-07,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_005"
+        },
+        "energy_power_005": {
+          "value": 7246.518783749541,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_005"
+        },
+        "energy_voltage_005": {
+          "value": 226.11059007952295,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_005"
+        },
+        "hvac_temp_006": {
+          "value": 26.627925348542057,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_006"
+        },
+        "hvac_humid_006": {
+          "value": 35.04435650079572,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_006"
+        },
+        "hvac_aqi_006": {
+          "value": 55.51429990295169,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_006"
+        },
+        "light_lux_006": {
+          "value": 427.95851927232155,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_006"
+        },
+        "light_energy_006": {
+          "value": 7.60413464738967,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_006"
+        },
+        "occupancy_count_006": {
+          "value": 50.320470692136446,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_006"
+        },
+        "occupancy_motion_006": {
+          "value": 1.0005608814817908,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_006"
+        },
+        "energy_power_006": {
+          "value": 7105.439070856168,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_006"
+        },
+        "energy_voltage_006": {
+          "value": 224.10729012244474,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_006"
+        },
+        "hvac_temp_007": {
+          "value": 27.948048494908953,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_007"
+        },
+        "hvac_humid_007": {
+          "value": 43.28598036719303,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_007"
+        },
+        "hvac_aqi_007": {
+          "value": 45.81259690781633,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_007"
+        },
+        "light_lux_007": {
+          "value": 268.49113433906314,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_007"
+        },
+        "light_energy_007": {
+          "value": 8.231354662612077,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_007"
+        },
+        "occupancy_count_007": {
+          "value": 47.804095537634396,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_007"
+        },
+        "occupancy_motion_007": {
+          "value": 1.0114549487458537,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_007"
+        },
+        "energy_power_007": {
+          "value": 8053.059512367668,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_007"
+        },
+        "energy_voltage_007": {
+          "value": 225.2761022341568,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_007"
+        },
+        "hvac_temp_008": {
+          "value": 28.292373347589344,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_008"
+        },
+        "hvac_humid_008": {
+          "value": 47.80586157446979,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_008"
+        },
+        "hvac_aqi_008": {
+          "value": 50.59027208433689,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_008"
+        },
+        "light_lux_008": {
+          "value": 368.79891428238153,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_008"
+        },
+        "light_energy_008": {
+          "value": 9.283130186270812,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_008"
+        },
+        "occupancy_count_008": {
+          "value": 18.112862812823504,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_008"
+        },
+        "occupancy_motion_008": {
+          "value": 1.003929419451982,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_008"
+        },
+        "energy_power_008": {
+          "value": 1949.1845914239536,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_008"
+        },
+        "energy_voltage_008": {
+          "value": 228.07687659414503,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_008"
+        },
+        "hvac_temp_009": {
+          "value": 26.284921750232222,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_009"
+        },
+        "hvac_humid_009": {
+          "value": 45.23317874907838,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_009"
+        },
+        "hvac_aqi_009": {
+          "value": 57.76786710655955,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_009"
+        },
+        "light_lux_009": {
+          "value": 446.6705945619619,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_009"
+        },
+        "light_energy_009": {
+          "value": 10.03735852513701,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_009"
+        },
+        "occupancy_count_009": {
+          "value": 6.004295735325475,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_009"
+        },
+        "occupancy_motion_009": {
+          "value": 1.103e-06,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_009"
+        },
+        "energy_power_009": {
+          "value": 616.1466250460797,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_009"
+        },
+        "energy_voltage_009": {
+          "value": 223.85217136724003,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_009"
+        },
+        "hvac_temp_010": {
+          "value": 26.969242762050325,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_010"
+        },
+        "hvac_humid_010": {
+          "value": 45.53877961746403,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_010"
+        },
+        "hvac_aqi_010": {
+          "value": 52.86238857041043,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_010"
+        },
+        "light_lux_010": {
+          "value": 383.3576818497345,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_010"
+        },
+        "light_energy_010": {
+          "value": 7.659477837608455,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_010"
+        },
+        "occupancy_count_010": {
+          "value": 19.058640431420127,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_010"
+        },
+        "occupancy_motion_010": {
+          "value": 0.9915349711604725,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_010"
+        },
+        "energy_power_010": {
+          "value": 6027.06161857932,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_010"
+        },
+        "energy_voltage_010": {
+          "value": 226.2416929532635,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_010"
+        },
+        "hvac_temp_011": {
+          "value": 26.513502753585872,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_011"
+        },
+        "hvac_humid_011": {
+          "value": 46.52227255950164,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_011"
+        },
+        "hvac_aqi_011": {
+          "value": 46.17575228043612,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_011"
+        },
+        "light_lux_011": {
+          "value": 484.58823964048275,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_011"
+        },
+        "light_energy_011": {
+          "value": 13.637683144298975,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_011"
+        },
+        "occupancy_count_011": {
+          "value": 23.04083415840995,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_011"
+        },
+        "occupancy_motion_011": {
+          "value": 1.166e-06,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_011"
+        },
+        "energy_power_011": {
+          "value": 2960.301016183069,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_011"
+        },
+        "energy_voltage_011": {
+          "value": 225.2772180547603,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_011"
+        },
+        "hvac_temp_012": {
+          "value": 29.327799682052646,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_012"
+        },
+        "hvac_humid_012": {
+          "value": 50.323080982405315,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_012"
+        },
+        "hvac_aqi_012": {
+          "value": 42.87312722128528,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_012"
+        },
+        "light_lux_012": {
+          "value": 400.9067631971359,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_012"
+        },
+        "light_energy_012": {
+          "value": 8.54205805677094,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_012"
+        },
+        "occupancy_count_012": {
+          "value": 4.016848398442375,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_012"
+        },
+        "occupancy_motion_012": {
+          "value": 0.9946409225130097,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_012"
+        },
+        "energy_power_012": {
+          "value": 1505.460669226184,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_012"
+        },
+        "energy_voltage_012": {
+          "value": 223.73971757279745,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_012"
+        }
+      },
+      "building_summary": {
+        "total_occupancy": 0,
+        "total_energy_consumption": 0,
+        "active_sensors": 108,
+        "total_sensors": 108
+      }
+    },
+    {
+      "timestamp": "2025-08-14T16:58:34.788201",
+      "readings": {
+        "hvac_temp_001": {
+          "value": 26.37585674290982,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_001"
+        },
+        "hvac_humid_001": {
+          "value": 51.07579597144323,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_001"
+        },
+        "hvac_aqi_001": {
+          "value": 63.66266595963414,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_001"
+        },
+        "light_lux_001": {
+          "value": 431.22623166594093,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_001"
+        },
+        "light_energy_001": {
+          "value": 14.960755866017708,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_001"
+        },
+        "occupancy_count_001": {
+          "value": 44.83893840363489,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_001"
+        },
+        "occupancy_motion_001": {
+          "value": 0.030007343,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_001"
+        },
+        "energy_power_001": {
+          "value": 3514.9597302077295,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_001"
+        },
+        "energy_voltage_001": {
+          "value": 222.4190428073686,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_001"
+        },
+        "hvac_temp_002": {
+          "value": 27.700478610397436,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_002"
+        },
+        "hvac_humid_002": {
+          "value": 41.532291984112106,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_002"
+        },
+        "hvac_aqi_002": {
+          "value": 55.21455701770449,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_002"
+        },
+        "light_lux_002": {
+          "value": 402.7048478446935,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_002"
+        },
+        "light_energy_002": {
+          "value": 14.460617953343235,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_002"
+        },
+        "occupancy_count_002": {
+          "value": 20.1145315722686,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_002"
+        },
+        "occupancy_motion_002": {
+          "value": 0.030007633,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_002"
+        },
+        "energy_power_002": {
+          "value": 1897.2878437911777,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_002"
+        },
+        "energy_voltage_002": {
+          "value": 221.59205257357107,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_002"
+        },
+        "hvac_temp_003": {
+          "value": 26.672725690883702,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_003"
+        },
+        "hvac_humid_003": {
+          "value": 50.4279068124983,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_003"
+        },
+        "hvac_aqi_003": {
+          "value": 53.265635388732655,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_003"
+        },
+        "light_lux_003": {
+          "value": 343.0158403967689,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_003"
+        },
+        "light_energy_003": {
+          "value": 14.060772518262098,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_003"
+        },
+        "occupancy_count_003": {
+          "value": 30.978291314298584,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_003"
+        },
+        "occupancy_motion_003": {
+          "value": 0.03000783,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_003"
+        },
+        "energy_power_003": {
+          "value": 3816.7179358539415,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_003"
+        },
+        "energy_voltage_003": {
+          "value": 223.8400135655436,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_003"
+        },
+        "hvac_temp_004": {
+          "value": 27.361756938947778,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_004"
+        },
+        "hvac_humid_004": {
+          "value": 45.24896121140326,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_004"
+        },
+        "hvac_aqi_004": {
+          "value": 35.925609189457134,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_004"
+        },
+        "light_lux_004": {
+          "value": 372.2551884075251,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_004"
+        },
+        "light_energy_004": {
+          "value": 7.146603330807727,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_004"
+        },
+        "occupancy_count_004": {
+          "value": 12.094373092029262,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_004"
+        },
+        "occupancy_motion_004": {
+          "value": 1.0257603672284141,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_004"
+        },
+        "energy_power_004": {
+          "value": 3639.1765585900825,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_004"
+        },
+        "energy_voltage_004": {
+          "value": 225.02850412914566,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_004"
+        },
+        "hvac_temp_005": {
+          "value": 27.466983164678552,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_005"
+        },
+        "hvac_humid_005": {
+          "value": 50.70547859579375,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_005"
+        },
+        "hvac_aqi_005": {
+          "value": 33.44962280982009,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_005"
+        },
+        "light_lux_005": {
+          "value": 387.22741993092757,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_005"
+        },
+        "light_energy_005": {
+          "value": 12.577580526675838,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_005"
+        },
+        "occupancy_count_005": {
+          "value": 4.023139692340851,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_005"
+        },
+        "occupancy_motion_005": {
+          "value": 0.030008240000000002,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_005"
+        },
+        "energy_power_005": {
+          "value": 9791.27291391037,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_005"
+        },
+        "energy_voltage_005": {
+          "value": 223.6411708487194,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_005"
+        },
+        "hvac_temp_006": {
+          "value": 28.52713036677691,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_006"
+        },
+        "hvac_humid_006": {
+          "value": 49.903955909792145,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_006"
+        },
+        "hvac_aqi_006": {
+          "value": 43.22213347254875,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_006"
+        },
+        "light_lux_006": {
+          "value": 401.1922857380807,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_006"
+        },
+        "light_energy_006": {
+          "value": 13.116901420196015,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_006"
+        },
+        "occupancy_count_006": {
+          "value": 43.98300734584139,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_006"
+        },
+        "occupancy_motion_006": {
+          "value": 1.0286111177963697,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_006"
+        },
+        "energy_power_006": {
+          "value": 4917.265210119369,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_006"
+        },
+        "energy_voltage_006": {
+          "value": 226.0833964294228,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_006"
+        },
+        "hvac_temp_007": {
+          "value": 28.49540120589235,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_007"
+        },
+        "hvac_humid_007": {
+          "value": 46.61800618551128,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_007"
+        },
+        "hvac_aqi_007": {
+          "value": 53.56913465147142,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_007"
+        },
+        "light_lux_007": {
+          "value": 349.4407683088029,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_007"
+        },
+        "light_energy_007": {
+          "value": 8.011539326335331,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_007"
+        },
+        "occupancy_count_007": {
+          "value": 39.965179484230866,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_007"
+        },
+        "occupancy_motion_007": {
+          "value": 0.030008559000000004,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_007"
+        },
+        "energy_power_007": {
+          "value": 7071.266159412456,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_007"
+        },
+        "energy_voltage_007": {
+          "value": 221.3019419761084,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_007"
+        },
+        "hvac_temp_008": {
+          "value": 27.116430055085555,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_008"
+        },
+        "hvac_humid_008": {
+          "value": 53.83010973358497,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_008"
+        },
+        "hvac_aqi_008": {
+          "value": 48.9185204469555,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_008"
+        },
+        "light_lux_008": {
+          "value": 365.993005283128,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_008"
+        },
+        "light_energy_008": {
+          "value": 13.200537477888851,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_008"
+        },
+        "occupancy_count_008": {
+          "value": 18.920366647058206,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_008"
+        },
+        "occupancy_motion_008": {
+          "value": 1.0246600856506656,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_008"
+        },
+        "energy_power_008": {
+          "value": 2400.4010624653474,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_008"
+        },
+        "energy_voltage_008": {
+          "value": 226.96882679913125,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_008"
+        },
+        "hvac_temp_009": {
+          "value": 26.5121369697568,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_009"
+        },
+        "hvac_humid_009": {
+          "value": 41.20030109821827,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_009"
+        },
+        "hvac_aqi_009": {
+          "value": 41.04214653861094,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_009"
+        },
+        "light_lux_009": {
+          "value": 474.82818125181666,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_009"
+        },
+        "light_energy_009": {
+          "value": 11.789621213396572,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_009"
+        },
+        "occupancy_count_009": {
+          "value": 11.885575179135703,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_009"
+        },
+        "occupancy_motion_009": {
+          "value": 1.0344574043149612,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_009"
+        },
+        "energy_power_009": {
+          "value": 985.2463419710832,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_009"
+        },
+        "energy_voltage_009": {
+          "value": 222.13906225174486,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_009"
+        },
+        "hvac_temp_010": {
+          "value": 28.295582087150947,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_010"
+        },
+        "hvac_humid_010": {
+          "value": 36.52119663617971,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_010"
+        },
+        "hvac_aqi_010": {
+          "value": 63.047056603950104,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_010"
+        },
+        "light_lux_010": {
+          "value": 494.7630846022502,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_010"
+        },
+        "light_energy_010": {
+          "value": 10.14737452249675,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_010"
+        },
+        "occupancy_count_010": {
+          "value": 13.935721136674292,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_010"
+        },
+        "occupancy_motion_010": {
+          "value": 1.0361377164407652,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_010"
+        },
+        "energy_power_010": {
+          "value": 4554.147757239978,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_010"
+        },
+        "energy_voltage_010": {
+          "value": 224.94883271364395,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_010"
+        },
+        "hvac_temp_011": {
+          "value": 26.581579136511095,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_011"
+        },
+        "hvac_humid_011": {
+          "value": 41.20803180508982,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_011"
+        },
+        "hvac_aqi_011": {
+          "value": 45.883671051191094,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_011"
+        },
+        "light_lux_011": {
+          "value": 408.9761024975067,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_011"
+        },
+        "light_energy_011": {
+          "value": 11.502767008708004,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_011"
+        },
+        "occupancy_count_011": {
+          "value": 27.02492959224103,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_011"
+        },
+        "occupancy_motion_011": {
+          "value": 0.030009315999999998,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_011"
+        },
+        "energy_power_011": {
+          "value": 2527.8325888442987,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_011"
+        },
+        "energy_voltage_011": {
+          "value": 224.50914926420143,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_011"
+        },
+        "hvac_temp_012": {
+          "value": 28.443713824281346,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_012"
+        },
+        "hvac_humid_012": {
+          "value": 52.532633687990035,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_012"
+        },
+        "hvac_aqi_012": {
+          "value": 48.5444295342303,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_012"
+        },
+        "light_lux_012": {
+          "value": 275.70516059832335,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_012"
+        },
+        "light_energy_012": {
+          "value": 6.967855552123544,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_012"
+        },
+        "occupancy_count_012": {
+          "value": 4.039953530547845,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_012"
+        },
+        "occupancy_motion_012": {
+          "value": 1.0337025064907792,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_012"
+        },
+        "energy_power_012": {
+          "value": 1993.932617645962,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_012"
+        },
+        "energy_voltage_012": {
+          "value": 228.6245882550702,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_012"
+        }
+      },
+      "building_summary": {
+        "total_occupancy": 0,
+        "total_energy_consumption": 0,
+        "active_sensors": 108,
+        "total_sensors": 108
+      }
+    },
+    {
+      "timestamp": "2025-08-14T16:59:04.791949",
+      "readings": {
+        "hvac_temp_001": {
+          "value": 27.972371773569282,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_001"
+        },
+        "hvac_humid_001": {
+          "value": 50.2918102231254,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_001"
+        },
+        "hvac_aqi_001": {
+          "value": 28.309982968377053,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_001"
+        },
+        "light_lux_001": {
+          "value": 348.84881198211735,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_001"
+        },
+        "light_energy_001": {
+          "value": 9.9087959848766,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_001"
+        },
+        "occupancy_count_001": {
+          "value": 44.76167483155304,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_001"
+        },
+        "occupancy_motion_001": {
+          "value": 0.060010992000000006,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_001"
+        },
+        "energy_power_001": {
+          "value": 3998.1199839196192,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_001"
+        },
+        "energy_voltage_001": {
+          "value": 222.55604681541183,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_001"
+        },
+        "hvac_temp_002": {
+          "value": 27.850244778039542,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_002"
+        },
+        "hvac_humid_002": {
+          "value": 41.71348133079735,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_002"
+        },
+        "hvac_aqi_002": {
+          "value": 37.98444012067324,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_002"
+        },
+        "light_lux_002": {
+          "value": 324.2158244544362,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_002"
+        },
+        "light_energy_002": {
+          "value": 11.580407777375394,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_002"
+        },
+        "occupancy_count_002": {
+          "value": 18.984327653799237,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_002"
+        },
+        "occupancy_motion_002": {
+          "value": 1.0557679348100488,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_002"
+        },
+        "energy_power_002": {
+          "value": 1677.583219305313,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_002"
+        },
+        "energy_voltage_002": {
+          "value": 227.0121352454317,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_002"
+        },
+        "hvac_temp_003": {
+          "value": 27.268268384400645,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_003"
+        },
+        "hvac_humid_003": {
+          "value": 39.38523108171365,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_003"
+        },
+        "hvac_aqi_003": {
+          "value": 62.63015620604471,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_003"
+        },
+        "light_lux_003": {
+          "value": 522.0348144187602,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_003"
+        },
+        "light_energy_003": {
+          "value": 16.510291256034016,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_003"
+        },
+        "occupancy_count_003": {
+          "value": 40.85907674989256,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_003"
+        },
+        "occupancy_motion_003": {
+          "value": 1.0523127425526366,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_003"
+        },
+        "energy_power_003": {
+          "value": 3860.8451202743813,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_003"
+        },
+        "energy_voltage_003": {
+          "value": 221.2945786738999,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_003"
+        },
+        "hvac_temp_004": {
+          "value": 26.94315715776903,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_004"
+        },
+        "hvac_humid_004": {
+          "value": 36.02465280341896,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_004"
+        },
+        "hvac_aqi_004": {
+          "value": 41.28253207239246,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_004"
+        },
+        "light_lux_004": {
+          "value": 417.071284768978,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_004"
+        },
+        "light_energy_004": {
+          "value": 6.5215483540361845,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_004"
+        },
+        "occupancy_count_004": {
+          "value": 13.097721189744705,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_004"
+        },
+        "occupancy_motion_004": {
+          "value": 1.0648313480604557,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_004"
+        },
+        "energy_power_004": {
+          "value": 4446.010976843708,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_004"
+        },
+        "energy_voltage_004": {
+          "value": 226.541539218701,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_004"
+        },
+        "hvac_temp_005": {
+          "value": 28.071103767590053,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_005"
+        },
+        "hvac_humid_005": {
+          "value": 51.88092140225037,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_005"
+        },
+        "hvac_aqi_005": {
+          "value": 31.324883226129312,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_005"
+        },
+        "light_lux_005": {
+          "value": 317.78575943530035,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_005"
+        },
+        "light_energy_005": {
+          "value": 12.86300225735816,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_005"
+        },
+        "occupancy_count_005": {
+          "value": 3.058355167763617,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_005"
+        },
+        "occupancy_motion_005": {
+          "value": 1.0663441595404552,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_005"
+        },
+        "energy_power_005": {
+          "value": 8547.2590342394,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_005"
+        },
+        "energy_voltage_005": {
+          "value": 225.08765723769423,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_005"
+        },
+        "hvac_temp_006": {
+          "value": 26.63104511990151,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_006"
+        },
+        "hvac_humid_006": {
+          "value": 50.241852689370425,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_006"
+        },
+        "hvac_aqi_006": {
+          "value": 54.7164364005301,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_006"
+        },
+        "light_lux_006": {
+          "value": 439.65911054264876,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_006"
+        },
+        "light_energy_006": {
+          "value": 9.95934558732474,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_006"
+        },
+        "occupancy_count_006": {
+          "value": 54.50748643567046,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_006"
+        },
+        "occupancy_motion_006": {
+          "value": 0.060011935,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_006"
+        },
+        "energy_power_006": {
+          "value": 7957.553295171085,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_006"
+        },
+        "energy_voltage_006": {
+          "value": 223.39713257316498,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_006"
+        },
+        "hvac_temp_007": {
+          "value": 27.271965308374483,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_007"
+        },
+        "hvac_humid_007": {
+          "value": 41.52551726893015,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_007"
+        },
+        "hvac_aqi_007": {
+          "value": 63.99437571936133,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_007"
+        },
+        "light_lux_007": {
+          "value": 484.41836688913315,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_007"
+        },
+        "light_energy_007": {
+          "value": 7.496957207370456,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_007"
+        },
+        "occupancy_count_007": {
+          "value": 31.9025246542415,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_007"
+        },
+        "occupancy_motion_007": {
+          "value": 1.0592411682571707,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_007"
+        },
+        "energy_power_007": {
+          "value": 8003.9467197618105,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_007"
+        },
+        "energy_voltage_007": {
+          "value": 224.24956841111918,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_007"
+        },
+        "hvac_temp_008": {
+          "value": 28.673413548385003,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_008"
+        },
+        "hvac_humid_008": {
+          "value": 39.21090006660502,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_008"
+        },
+        "hvac_aqi_008": {
+          "value": 51.39516277328133,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_008"
+        },
+        "light_lux_008": {
+          "value": 356.8581313061152,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_008"
+        },
+        "light_energy_008": {
+          "value": 8.58521051657734,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_008"
+        },
+        "occupancy_count_008": {
+          "value": 26.926445553505598,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_008"
+        },
+        "occupancy_motion_008": {
+          "value": 0.060012265,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_008"
+        },
+        "energy_power_008": {
+          "value": 2228.892892717513,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_008"
+        },
+        "energy_voltage_008": {
+          "value": 222.67257228763165,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_008"
+        },
+        "hvac_temp_009": {
+          "value": 27.60214407660415,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_009"
+        },
+        "hvac_humid_009": {
+          "value": 43.3992761845587,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_009"
+        },
+        "hvac_aqi_009": {
+          "value": 43.687286814096346,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_009"
+        },
+        "light_lux_009": {
+          "value": 360.9877291576312,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_009"
+        },
+        "light_energy_009": {
+          "value": 11.696834207777272,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_009"
+        },
+        "occupancy_count_009": {
+          "value": 8.993704383506923,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_009"
+        },
+        "occupancy_motion_009": {
+          "value": 1.063223585139079,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_009"
+        },
+        "energy_power_009": {
+          "value": 973.9475994890537,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_009"
+        },
+        "energy_voltage_009": {
+          "value": 223.15107962750878,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_009"
+        },
+        "hvac_temp_010": {
+          "value": 28.517830920753003,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_010"
+        },
+        "hvac_humid_010": {
+          "value": 46.238440838009765,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_010"
+        },
+        "hvac_aqi_010": {
+          "value": 43.189833547113885,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_010"
+        },
+        "light_lux_010": {
+          "value": 512.1862936287292,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_010"
+        },
+        "light_energy_010": {
+          "value": 10.969691007936728,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_010"
+        },
+        "occupancy_count_010": {
+          "value": 24.11591060293792,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_010"
+        },
+        "occupancy_motion_010": {
+          "value": 0.060012563,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_010"
+        },
+        "energy_power_010": {
+          "value": 5146.171401179127,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_010"
+        },
+        "energy_voltage_010": {
+          "value": 225.58650682274933,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_010"
+        },
+        "hvac_temp_011": {
+          "value": 27.184162319546626,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_011"
+        },
+        "hvac_humid_011": {
+          "value": 35.63871668048497,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_011"
+        },
+        "hvac_aqi_011": {
+          "value": 52.632395331050716,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_011"
+        },
+        "light_lux_011": {
+          "value": 438.1087459336824,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_011"
+        },
+        "light_energy_011": {
+          "value": 15.059452116060381,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_011"
+        },
+        "occupancy_count_011": {
+          "value": 26.966966904838188,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_011"
+        },
+        "occupancy_motion_011": {
+          "value": 1.0556128912349938,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_011"
+        },
+        "energy_power_011": {
+          "value": 2853.068396111243,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_011"
+        },
+        "energy_voltage_011": {
+          "value": 225.40557445839474,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_011"
+        },
+        "hvac_temp_012": {
+          "value": 27.087811382497616,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_012"
+        },
+        "hvac_humid_012": {
+          "value": 32.3103223743441,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_012"
+        },
+        "hvac_aqi_012": {
+          "value": 50.796557189261065,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_012"
+        },
+        "light_lux_012": {
+          "value": 366.0898460678444,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_012"
+        },
+        "light_energy_012": {
+          "value": 12.901932259782884,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_012"
+        },
+        "occupancy_count_012": {
+          "value": 4.05928298148172,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_012"
+        },
+        "occupancy_motion_012": {
+          "value": 1.0483385670124696,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_012"
+        },
+        "energy_power_012": {
+          "value": 1676.436484729372,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_012"
+        },
+        "energy_voltage_012": {
+          "value": 226.2693406251068,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_012"
+        }
+      },
+      "building_summary": {
+        "total_occupancy": 0,
+        "total_energy_consumption": 0,
+        "active_sensors": 108,
+        "total_sensors": 108
+      }
+    },
+    {
+      "timestamp": "2025-08-14T16:59:34.818571",
+      "readings": {
+        "hvac_temp_001": {
+          "value": 26.89892097036818,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_001"
+        },
+        "hvac_humid_001": {
+          "value": 53.59169932246364,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_001"
+        },
+        "hvac_aqi_001": {
+          "value": 32.91209277368635,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_001"
+        },
+        "light_lux_001": {
+          "value": 420.37114245934976,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_001"
+        },
+        "light_energy_001": {
+          "value": 12.296836978716437,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_001"
+        },
+        "occupancy_count_001": {
+          "value": 37.294632457102395,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_001"
+        },
+        "occupancy_motion_001": {
+          "value": 1.0917152112315125,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_001"
+        },
+        "energy_power_001": {
+          "value": 3988.645575330181,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_001"
+        },
+        "energy_voltage_001": {
+          "value": 221.55367008760632,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_001"
+        },
+        "hvac_temp_002": {
+          "value": 26.651482744425277,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_002"
+        },
+        "hvac_humid_002": {
+          "value": 40.42122486912662,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_002"
+        },
+        "hvac_aqi_002": {
+          "value": 56.242774311534994,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_002"
+        },
+        "light_lux_002": {
+          "value": 461.17830706401196,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_002"
+        },
+        "light_energy_002": {
+          "value": 11.274040646086036,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_002"
+        },
+        "occupancy_count_002": {
+          "value": 17.12680382555529,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_002"
+        },
+        "occupancy_motion_002": {
+          "value": 1.0814712649486444,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_002"
+        },
+        "energy_power_002": {
+          "value": 1997.3240569926518,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_002"
+        },
+        "energy_voltage_002": {
+          "value": 224.9475033146361,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_002"
+        },
+        "hvac_temp_003": {
+          "value": 28.277777063734202,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_003"
+        },
+        "hvac_humid_003": {
+          "value": 50.04551447459776,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_003"
+        },
+        "hvac_aqi_003": {
+          "value": 63.75343845770877,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_003"
+        },
+        "light_lux_003": {
+          "value": 283.5847116113622,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_003"
+        },
+        "light_energy_003": {
+          "value": 11.026145199030493,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_003"
+        },
+        "occupancy_count_003": {
+          "value": 41.40011482367925,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_003"
+        },
+        "occupancy_motion_003": {
+          "value": 1.0885853742498004,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_003"
+        },
+        "energy_power_003": {
+          "value": 4356.738206505664,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_003"
+        },
+        "energy_voltage_003": {
+          "value": 228.17213279402384,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_003"
+        },
+        "hvac_temp_004": {
+          "value": 27.507841240514047,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_004"
+        },
+        "hvac_humid_004": {
+          "value": 47.89132958301825,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_004"
+        },
+        "hvac_aqi_004": {
+          "value": 45.67650761860955,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_004"
+        },
+        "light_lux_004": {
+          "value": 301.2163142407617,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_004"
+        },
+        "light_energy_004": {
+          "value": 12.799483300677958,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_004"
+        },
+        "occupancy_count_004": {
+          "value": 17.073688815919624,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_004"
+        },
+        "occupancy_motion_004": {
+          "value": 0.09003844300000001,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_004"
+        },
+        "energy_power_004": {
+          "value": 3573.7196845825065,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_004"
+        },
+        "energy_voltage_004": {
+          "value": 228.4843981619619,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_004"
+        },
+        "hvac_temp_005": {
+          "value": 26.631461459668852,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_005"
+        },
+        "hvac_humid_005": {
+          "value": 51.78462492452824,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_005"
+        },
+        "hvac_aqi_005": {
+          "value": 51.462264207855526,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_005"
+        },
+        "light_lux_005": {
+          "value": 504.0004181282852,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_005"
+        },
+        "light_energy_005": {
+          "value": 10.911967042033487,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_005"
+        },
+        "occupancy_count_005": {
+          "value": 6.035655442962473,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_005"
+        },
+        "occupancy_motion_005": {
+          "value": 1.088227722463912,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_005"
+        },
+        "energy_power_005": {
+          "value": 9959.369308253958,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_005"
+        },
+        "energy_voltage_005": {
+          "value": 225.5565946383944,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_005"
+        },
+        "hvac_temp_006": {
+          "value": 27.33029026128342,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_006"
+        },
+        "hvac_humid_006": {
+          "value": 41.47778685594675,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_006"
+        },
+        "hvac_aqi_006": {
+          "value": 57.348339271060446,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_006"
+        },
+        "light_lux_006": {
+          "value": 433.1293757400238,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_006"
+        },
+        "light_energy_006": {
+          "value": 14.177705569355377,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_006"
+        },
+        "occupancy_count_006": {
+          "value": 40.31994237585479,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_006"
+        },
+        "occupancy_motion_006": {
+          "value": 0.090038725,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_006"
+        },
+        "energy_power_006": {
+          "value": 6758.298198251711,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_006"
+        },
+        "energy_voltage_006": {
+          "value": 224.94386722247677,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_006"
+        },
+        "hvac_temp_007": {
+          "value": 26.60177901695986,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_007"
+        },
+        "hvac_humid_007": {
+          "value": 43.968690476260385,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_007"
+        },
+        "hvac_aqi_007": {
+          "value": 61.607149572550256,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_007"
+        },
+        "light_lux_007": {
+          "value": 385.03120336284735,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_007"
+        },
+        "light_energy_007": {
+          "value": 10.71033004037545,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_007"
+        },
+        "occupancy_count_007": {
+          "value": 26.234991174339534,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_007"
+        },
+        "occupancy_motion_007": {
+          "value": 0.090038872,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_007"
+        },
+        "energy_power_007": {
+          "value": 7386.404318511481,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_007"
+        },
+        "energy_voltage_007": {
+          "value": 222.49652209953499,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_007"
+        },
+        "hvac_temp_008": {
+          "value": 27.183075128947152,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_008"
+        },
+        "hvac_humid_008": {
+          "value": 44.423145890674014,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_008"
+        },
+        "hvac_aqi_008": {
+          "value": 68.40974910840524,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_008"
+        },
+        "light_lux_008": {
+          "value": 391.1112925904106,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_008"
+        },
+        "light_energy_008": {
+          "value": 14.605215796827975,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_008"
+        },
+        "occupancy_count_008": {
+          "value": 27.26405767096477,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_008"
+        },
+        "occupancy_motion_008": {
+          "value": 1.0812319673191866,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_008"
+        },
+        "energy_power_008": {
+          "value": 1772.8324224191358,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_008"
+        },
+        "energy_voltage_008": {
+          "value": 223.69602431321943,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_008"
+        },
+        "hvac_temp_009": {
+          "value": 28.393773716508594,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_009"
+        },
+        "hvac_humid_009": {
+          "value": 47.96943175578461,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_009"
+        },
+        "hvac_aqi_009": {
+          "value": 54.03993945261652,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_009"
+        },
+        "light_lux_009": {
+          "value": 466.5302590585021,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_009"
+        },
+        "light_energy_009": {
+          "value": 12.788319092318076,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_009"
+        },
+        "occupancy_count_009": {
+          "value": 8.084717444306749,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_009"
+        },
+        "occupancy_motion_009": {
+          "value": 1.0898818405608992,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_009"
+        },
+        "energy_power_009": {
+          "value": 1195.6040788716134,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_009"
+        },
+        "energy_voltage_009": {
+          "value": 228.95500052653287,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_009"
+        },
+        "hvac_temp_010": {
+          "value": 27.35879988815647,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_010"
+        },
+        "hvac_humid_010": {
+          "value": 40.69509380017338,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_010"
+        },
+        "hvac_aqi_010": {
+          "value": 43.780000549467196,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_010"
+        },
+        "light_lux_010": {
+          "value": 458.4017417028319,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_010"
+        },
+        "light_energy_010": {
+          "value": 6.4956608950782435,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_010"
+        },
+        "occupancy_count_010": {
+          "value": 16.031749203669943,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_010"
+        },
+        "occupancy_motion_010": {
+          "value": 1.0881773866418178,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_010"
+        },
+        "energy_power_010": {
+          "value": 4981.095091322911,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_010"
+        },
+        "energy_voltage_010": {
+          "value": 228.12163609311813,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_010"
+        },
+        "hvac_temp_011": {
+          "value": 27.78833964635446,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_011"
+        },
+        "hvac_humid_011": {
+          "value": 44.50509285370807,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_011"
+        },
+        "hvac_aqi_011": {
+          "value": 58.327352054944285,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_011"
+        },
+        "light_lux_011": {
+          "value": 531.0910874372413,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_011"
+        },
+        "light_energy_011": {
+          "value": 11.537136358481353,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_011"
+        },
+        "occupancy_count_011": {
+          "value": 18.06981917614102,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_011"
+        },
+        "occupancy_motion_011": {
+          "value": 0.090039518,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_011"
+        },
+        "energy_power_011": {
+          "value": 2725.8078239508827,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_011"
+        },
+        "energy_voltage_011": {
+          "value": 227.04214564864043,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_011"
+        },
+        "hvac_temp_012": {
+          "value": 26.197125700086076,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_012"
+        },
+        "hvac_humid_012": {
+          "value": 45.475990203931524,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_012"
+        },
+        "hvac_aqi_012": {
+          "value": 52.440751041080674,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_012"
+        },
+        "light_lux_012": {
+          "value": 474.0396877077966,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_012"
+        },
+        "light_energy_012": {
+          "value": 10.57278277075644,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_012"
+        },
+        "occupancy_count_012": {
+          "value": 4.101787411795724,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_012"
+        },
+        "occupancy_motion_012": {
+          "value": 1.0936578890869046,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_012"
+        },
+        "energy_power_012": {
+          "value": 2013.5260038492427,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_012"
+        },
+        "energy_voltage_012": {
+          "value": 229.49893895235093,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_012"
+        }
+      },
+      "building_summary": {
+        "total_occupancy": 0,
+        "total_energy_consumption": 0,
+        "active_sensors": 108,
+        "total_sensors": 108
+      }
+    },
+    {
+      "timestamp": "2025-08-14T17:00:04.822062",
+      "readings": {
+        "hvac_temp_001": {
+          "value": 27.686239941282093,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_001"
+        },
+        "hvac_humid_001": {
+          "value": 50.85110890327217,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_001"
+        },
+        "hvac_aqi_001": {
+          "value": 51.92357721071072,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_001"
+        },
+        "light_lux_001": {
+          "value": 401.4913145411538,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_001"
+        },
+        "light_energy_001": {
+          "value": 13.957266967857388,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_001"
+        },
+        "occupancy_count_001": {
+          "value": 60.39630624701876,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_001"
+        },
+        "occupancy_motion_001": {
+          "value": 0.120040847,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_001"
+        },
+        "energy_power_001": {
+          "value": 2968.9812057876316,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_001"
+        },
+        "energy_voltage_001": {
+          "value": 223.54601746016976,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_001"
+        },
+        "hvac_temp_002": {
+          "value": 28.649167839196814,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_002"
+        },
+        "hvac_humid_002": {
+          "value": 47.73997168027267,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_002"
+        },
+        "hvac_aqi_002": {
+          "value": 48.40087106147261,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_002"
+        },
+        "light_lux_002": {
+          "value": 314.5477156800612,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_002"
+        },
+        "light_energy_002": {
+          "value": 18.051540669286535,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_002"
+        },
+        "occupancy_count_002": {
+          "value": 18.175575806884282,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_002"
+        },
+        "occupancy_motion_002": {
+          "value": 1.1184851584014759,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_002"
+        },
+        "energy_power_002": {
+          "value": 1798.7072027057038,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_002"
+        },
+        "energy_voltage_002": {
+          "value": 226.07836411792266,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_002"
+        },
+        "hvac_temp_003": {
+          "value": 27.530612362032922,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_003"
+        },
+        "hvac_humid_003": {
+          "value": 35.30158112941705,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_003"
+        },
+        "hvac_aqi_003": {
+          "value": 60.423409439464784,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_003"
+        },
+        "light_lux_003": {
+          "value": 219.35771958463638,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_003"
+        },
+        "light_energy_003": {
+          "value": 12.776428465850588,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_003"
+        },
+        "occupancy_count_003": {
+          "value": 18.021781100806194,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_003"
+        },
+        "occupancy_motion_003": {
+          "value": 1.1122141664293488,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_003"
+        },
+        "energy_power_003": {
+          "value": 4992.356530865805,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_003"
+        },
+        "energy_voltage_003": {
+          "value": 223.34857723715453,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_003"
+        },
+        "hvac_temp_004": {
+          "value": 28.526474317298934,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_004"
+        },
+        "hvac_humid_004": {
+          "value": 46.57749822889452,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_004"
+        },
+        "hvac_aqi_004": {
+          "value": 36.1208901239944,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_004"
+        },
+        "light_lux_004": {
+          "value": 260.60092112824464,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_004"
+        },
+        "light_energy_004": {
+          "value": 9.140747334147092,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_004"
+        },
+        "occupancy_count_004": {
+          "value": 12.981532158406823,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_004"
+        },
+        "occupancy_motion_004": {
+          "value": 0.12004129200000001,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_004"
+        },
+        "energy_power_004": {
+          "value": 4298.448277251463,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_004"
+        },
+        "energy_voltage_004": {
+          "value": 230.2578378807012,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_004"
+        },
+        "hvac_temp_005": {
+          "value": 27.442232770668248,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_005"
+        },
+        "hvac_humid_005": {
+          "value": 35.69267537425433,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_005"
+        },
+        "hvac_aqi_005": {
+          "value": 40.0181747239746,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_005"
+        },
+        "light_lux_005": {
+          "value": 312.8545301674124,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_005"
+        },
+        "light_energy_005": {
+          "value": 9.501802890852021,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_005"
+        },
+        "occupancy_count_005": {
+          "value": 3.138369803333487,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_005"
+        },
+        "occupancy_motion_005": {
+          "value": 0.120041496,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_005"
+        },
+        "energy_power_005": {
+          "value": 7285.815931829833,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_005"
+        },
+        "energy_voltage_005": {
+          "value": 221.74369389405808,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_005"
+        },
+        "hvac_temp_006": {
+          "value": 28.1024438335812,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_006"
+        },
+        "hvac_humid_006": {
+          "value": 52.224078432657706,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_006"
+        },
+        "hvac_aqi_006": {
+          "value": 40.68360860027219,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_006"
+        },
+        "light_lux_006": {
+          "value": 254.15582650321255,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_006"
+        },
+        "light_energy_006": {
+          "value": 12.955908433541492,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_006"
+        },
+        "occupancy_count_006": {
+          "value": 41.04328108210636,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_006"
+        },
+        "occupancy_motion_006": {
+          "value": 1.1300143377738288,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_006"
+        },
+        "energy_power_006": {
+          "value": 6893.015683787726,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_006"
+        },
+        "energy_voltage_006": {
+          "value": 230.49261021117798,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_006"
+        },
+        "hvac_temp_007": {
+          "value": 29.416524250294355,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_007"
+        },
+        "hvac_humid_007": {
+          "value": 42.276855216391525,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_007"
+        },
+        "hvac_aqi_007": {
+          "value": 51.155144010291316,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_007"
+        },
+        "light_lux_007": {
+          "value": 261.0949275246214,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_007"
+        },
+        "light_energy_007": {
+          "value": 8.256328825683287,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_007"
+        },
+        "occupancy_count_007": {
+          "value": 37.308780253259215,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_007"
+        },
+        "occupancy_motion_007": {
+          "value": 0.120041776,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_007"
+        },
+        "energy_power_007": {
+          "value": 6669.445594019166,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_007"
+        },
+        "energy_voltage_007": {
+          "value": 228.33762772186927,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_007"
+        },
+        "hvac_temp_008": {
+          "value": 28.683320483867842,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_008"
+        },
+        "hvac_humid_008": {
+          "value": 45.43088550153958,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_008"
+        },
+        "hvac_aqi_008": {
+          "value": 36.67299520987984,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_008"
+        },
+        "light_lux_008": {
+          "value": 377.7306135214004,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_008"
+        },
+        "light_energy_008": {
+          "value": 9.721582585031134,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_008"
+        },
+        "occupancy_count_008": {
+          "value": 23.24586874617245,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_008"
+        },
+        "occupancy_motion_008": {
+          "value": 1.1085045740569965,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_008"
+        },
+        "energy_power_008": {
+          "value": 2013.545935355722,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_008"
+        },
+        "energy_voltage_008": {
+          "value": 224.75450885739414,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_008"
+        },
+        "hvac_temp_009": {
+          "value": 28.638566566990363,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_009"
+        },
+        "hvac_humid_009": {
+          "value": 40.35852361175655,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_009"
+        },
+        "hvac_aqi_009": {
+          "value": 57.183424650722976,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_009"
+        },
+        "light_lux_009": {
+          "value": 318.7397931156881,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_009"
+        },
+        "light_energy_009": {
+          "value": 11.177951182292022,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_009"
+        },
+        "occupancy_count_009": {
+          "value": 7.173039230449122,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_009"
+        },
+        "occupancy_motion_009": {
+          "value": 1.1258042945003985,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_009"
+        },
+        "energy_power_009": {
+          "value": 870.2474933430028,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_009"
+        },
+        "energy_voltage_009": {
+          "value": 227.29822401719636,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_009"
+        },
+        "hvac_temp_010": {
+          "value": 28.30588493081561,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_010"
+        },
+        "hvac_humid_010": {
+          "value": 41.93539765354152,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_010"
+        },
+        "hvac_aqi_010": {
+          "value": 60.32259964098769,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_010"
+        },
+        "light_lux_010": {
+          "value": 309.8988952341388,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_010"
+        },
+        "light_energy_010": {
+          "value": 13.357615447562793,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_010"
+        },
+        "occupancy_count_010": {
+          "value": 17.075007371261744,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_010"
+        },
+        "occupancy_motion_010": {
+          "value": 1.1140513145837634,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_010"
+        },
+        "energy_power_010": {
+          "value": 4956.588290520972,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_010"
+        },
+        "energy_voltage_010": {
+          "value": 222.80005993774824,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_010"
+        },
+        "hvac_temp_011": {
+          "value": 28.497290800456014,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_011"
+        },
+        "hvac_humid_011": {
+          "value": 36.26063497430139,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_011"
+        },
+        "hvac_aqi_011": {
+          "value": 54.64240059857472,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_011"
+        },
+        "light_lux_011": {
+          "value": 325.0951475217908,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_011"
+        },
+        "light_energy_011": {
+          "value": 13.756527592143538,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_011"
+        },
+        "occupancy_count_011": {
+          "value": 22.047753634490658,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_011"
+        },
+        "occupancy_motion_011": {
+          "value": 0.120042309,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_011"
+        },
+        "energy_power_011": {
+          "value": 2489.090087069019,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_011"
+        },
+        "energy_voltage_011": {
+          "value": 227.2814358819795,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_011"
+        },
+        "hvac_temp_012": {
+          "value": 28.81050260857754,
+          "unit": "\u00b0C",
+          "quality": 0.95,
+          "sensor_type": "hvac_temperature",
+          "zone_id": "zone_012"
+        },
+        "hvac_humid_012": {
+          "value": 40.69528413260029,
+          "unit": "%",
+          "quality": 0.95,
+          "sensor_type": "hvac_humidity",
+          "zone_id": "zone_012"
+        },
+        "hvac_aqi_012": {
+          "value": 52.99715673476892,
+          "unit": "AQI",
+          "quality": 0.95,
+          "sensor_type": "hvac_air_quality",
+          "zone_id": "zone_012"
+        },
+        "light_lux_012": {
+          "value": 358.9983459240677,
+          "unit": "lux",
+          "quality": 0.95,
+          "sensor_type": "lighting_illuminance",
+          "zone_id": "zone_012"
+        },
+        "light_energy_012": {
+          "value": 15.389422731243402,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "lighting_energy",
+          "zone_id": "zone_012"
+        },
+        "occupancy_count_012": {
+          "value": 5.126838740307715,
+          "unit": "people",
+          "quality": 0.95,
+          "sensor_type": "occupancy_people_count",
+          "zone_id": "zone_012"
+        },
+        "occupancy_motion_012": {
+          "value": 1.1139273319025238,
+          "unit": "boolean",
+          "quality": 0.95,
+          "sensor_type": "occupancy_motion",
+          "zone_id": "zone_012"
+        },
+        "energy_power_012": {
+          "value": 1906.2895372980415,
+          "unit": "W",
+          "quality": 0.95,
+          "sensor_type": "energy_power",
+          "zone_id": "zone_012"
+        },
+        "energy_voltage_012": {
+          "value": 227.63052475880838,
+          "unit": "V",
+          "quality": 0.95,
+          "sensor_type": "energy_voltage",
+          "zone_id": "zone_012"
+        }
+      },
+      "building_summary": {
+        "total_occupancy": 0,
+        "total_energy_consumption": 0,
+        "active_sensors": 108,
+        "total_sensors": 108
+      }
+    }
+  ],
+  "alerts": [],
+  "sensor_summary": {
+    "hvac_temp_001": {
+      "id": "hvac_temp_001",
+      "name": "Temperature - Main Lobby",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        29.769563066276177,
+        28.857409219375118,
+        2.5
+      ],
+      "zone_id": "zone_001",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781503",
+      "last_reading_time": "2025-08-14T17:00:04.822182",
+      "readings_count": 5,
+      "current_value": 27.686239941282093
+    },
+    "hvac_humid_001": {
+      "id": "hvac_humid_001",
+      "name": "Humidity - Main Lobby",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        25.711525241202132,
+        20.499605329710803,
+        2.5
+      ],
+      "zone_id": "zone_001",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781508",
+      "last_reading_time": "2025-08-14T17:00:04.822246",
+      "readings_count": 5,
+      "current_value": 50.85110890327217
+    },
+    "hvac_aqi_001": {
+      "id": "hvac_aqi_001",
+      "name": "Air Quality - Main Lobby",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        29.83280931994774,
+        20.76040374548783,
+        2.5
+      ],
+      "zone_id": "zone_001",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781510",
+      "last_reading_time": "2025-08-14T17:00:04.822274",
+      "readings_count": 5,
+      "current_value": 51.92357721071072
+    },
+    "light_lux_001": {
+      "id": "light_lux_001",
+      "name": "Illuminance - Main Lobby",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        2.8
+      ],
+      "zone_id": "zone_001",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781514",
+      "last_reading_time": "2025-08-14T17:00:04.822301",
+      "readings_count": 5,
+      "current_value": 401.4913145411538
+    },
+    "light_energy_001": {
+      "id": "light_energy_001",
+      "name": "Lighting Energy - Main Lobby",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        3.0
+      ],
+      "zone_id": "zone_001",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781517",
+      "last_reading_time": "2025-08-14T17:00:04.822326",
+      "readings_count": 5,
+      "current_value": 13.957266967857388
+    },
+    "occupancy_count_001": {
+      "id": "occupancy_count_001",
+      "name": "People Count - Main Lobby",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        2.2
+      ],
+      "zone_id": "zone_001",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        50.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781520",
+      "last_reading_time": "2025-08-14T17:00:04.822348",
+      "readings_count": 5,
+      "current_value": 60.39630624701876
+    },
+    "occupancy_motion_001": {
+      "id": "occupancy_motion_001",
+      "name": "Motion Detection - Main Lobby",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        27.0,
+        27.0,
+        2.5
+      ],
+      "zone_id": "zone_001",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781523",
+      "last_reading_time": "2025-08-14T17:00:04.822372",
+      "readings_count": 5,
+      "current_value": 0.120040847
+    },
+    "energy_power_001": {
+      "id": "energy_power_001",
+      "name": "Power Meter - Main Lobby",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        23.0,
+        23.0,
+        0.0
+      ],
+      "zone_id": "zone_001",
+      "unit": "W",
+      "normal_range": [
+        400.0,
+        3200.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781527",
+      "last_reading_time": "2025-08-14T17:00:04.822399",
+      "readings_count": 5,
+      "current_value": 2968.9812057876316
+    },
+    "energy_voltage_001": {
+      "id": "energy_voltage_001",
+      "name": "Voltage Meter - Main Lobby",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        23.0,
+        23.0,
+        0.5
+      ],
+      "zone_id": "zone_001",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781530",
+      "last_reading_time": "2025-08-14T17:00:04.822420",
+      "readings_count": 5,
+      "current_value": 223.54601746016976
+    },
+    "hvac_temp_002": {
+      "id": "hvac_temp_002",
+      "name": "Temperature - Conference Room A",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        8.398876025077744,
+        9.166140682307029,
+        2.5
+      ],
+      "zone_id": "zone_002",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781559",
+      "last_reading_time": "2025-08-14T17:00:04.822445",
+      "readings_count": 5,
+      "current_value": 28.649167839196814
+    },
+    "hvac_humid_002": {
+      "id": "hvac_humid_002",
+      "name": "Humidity - Conference Room A",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        14.747077151066348,
+        14.470452060930649,
+        2.5
+      ],
+      "zone_id": "zone_002",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781561",
+      "last_reading_time": "2025-08-14T17:00:04.822480",
+      "readings_count": 5,
+      "current_value": 47.73997168027267
+    },
+    "hvac_aqi_002": {
+      "id": "hvac_aqi_002",
+      "name": "Air Quality - Conference Room A",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        8.632485147187635,
+        9.585851159279706,
+        2.5
+      ],
+      "zone_id": "zone_002",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781563",
+      "last_reading_time": "2025-08-14T17:00:04.822501",
+      "readings_count": 5,
+      "current_value": 48.40087106147261
+    },
+    "light_lux_002": {
+      "id": "light_lux_002",
+      "name": "Illuminance - Conference Room A",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        2.8
+      ],
+      "zone_id": "zone_002",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781564",
+      "last_reading_time": "2025-08-14T17:00:04.822522",
+      "readings_count": 5,
+      "current_value": 314.5477156800612
+    },
+    "light_energy_002": {
+      "id": "light_energy_002",
+      "name": "Lighting Energy - Conference Room A",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        3.0
+      ],
+      "zone_id": "zone_002",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781565",
+      "last_reading_time": "2025-08-14T17:00:04.822543",
+      "readings_count": 5,
+      "current_value": 18.051540669286535
+    },
+    "occupancy_count_002": {
+      "id": "occupancy_count_002",
+      "name": "People Count - Conference Room A",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        2.2
+      ],
+      "zone_id": "zone_002",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        20.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781567",
+      "last_reading_time": "2025-08-14T17:00:04.822556",
+      "readings_count": 5,
+      "current_value": 18.175575806884282
+    },
+    "occupancy_motion_002": {
+      "id": "occupancy_motion_002",
+      "name": "Motion Detection - Conference Room A",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        12.0,
+        12.0,
+        2.5
+      ],
+      "zone_id": "zone_002",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781569",
+      "last_reading_time": "2025-08-14T17:00:04.822570",
+      "readings_count": 5,
+      "current_value": 1.1184851584014759
+    },
+    "energy_power_002": {
+      "id": "energy_power_002",
+      "name": "Power Meter - Conference Room A",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        8.0,
+        8.0,
+        0.0
+      ],
+      "zone_id": "zone_002",
+      "unit": "W",
+      "normal_range": [
+        200.0,
+        1600.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781571",
+      "last_reading_time": "2025-08-14T17:00:04.822599",
+      "readings_count": 5,
+      "current_value": 1798.7072027057038
+    },
+    "energy_voltage_002": {
+      "id": "energy_voltage_002",
+      "name": "Voltage Meter - Conference Room A",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        8.0,
+        8.0,
+        0.5
+      ],
+      "zone_id": "zone_002",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781572",
+      "last_reading_time": "2025-08-14T17:00:04.822617",
+      "readings_count": 5,
+      "current_value": 226.07836411792266
+    },
+    "hvac_temp_003": {
+      "id": "hvac_temp_003",
+      "name": "Temperature - Open Office 1A",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        25.8213570694373,
+        26.10085037679747,
+        2.5
+      ],
+      "zone_id": "zone_003",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781594",
+      "last_reading_time": "2025-08-14T17:00:04.822638",
+      "readings_count": 5,
+      "current_value": 27.530612362032922
+    },
+    "hvac_humid_003": {
+      "id": "hvac_humid_003",
+      "name": "Humidity - Open Office 1A",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        26.13650445931643,
+        31.808146287177255,
+        2.5
+      ],
+      "zone_id": "zone_003",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781595",
+      "last_reading_time": "2025-08-14T17:00:04.822664",
+      "readings_count": 5,
+      "current_value": 35.30158112941705
+    },
+    "hvac_aqi_003": {
+      "id": "hvac_aqi_003",
+      "name": "Air Quality - Open Office 1A",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        31.083775886747823,
+        29.027430427953313,
+        2.5
+      ],
+      "zone_id": "zone_003",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781596",
+      "last_reading_time": "2025-08-14T17:00:04.822683",
+      "readings_count": 5,
+      "current_value": 60.423409439464784
+    },
+    "light_lux_003": {
+      "id": "light_lux_003",
+      "name": "Illuminance - Open Office 1A",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        2.8
+      ],
+      "zone_id": "zone_003",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781598",
+      "last_reading_time": "2025-08-14T17:00:04.822702",
+      "readings_count": 5,
+      "current_value": 219.35771958463638
+    },
+    "light_energy_003": {
+      "id": "light_energy_003",
+      "name": "Lighting Energy - Open Office 1A",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        3.0
+      ],
+      "zone_id": "zone_003",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781599",
+      "last_reading_time": "2025-08-14T17:00:04.822723",
+      "readings_count": 5,
+      "current_value": 12.776428465850588
+    },
+    "occupancy_count_003": {
+      "id": "occupancy_count_003",
+      "name": "People Count - Open Office 1A",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        2.2
+      ],
+      "zone_id": "zone_003",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        40.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781600",
+      "last_reading_time": "2025-08-14T17:00:04.822735",
+      "readings_count": 5,
+      "current_value": 18.021781100806194
+    },
+    "occupancy_motion_003": {
+      "id": "occupancy_motion_003",
+      "name": "Motion Detection - Open Office 1A",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        32.0,
+        32.0,
+        2.5
+      ],
+      "zone_id": "zone_003",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781602",
+      "last_reading_time": "2025-08-14T17:00:04.822748",
+      "readings_count": 5,
+      "current_value": 1.1122141664293488
+    },
+    "energy_power_003": {
+      "id": "energy_power_003",
+      "name": "Power Meter - Open Office 1A",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        28.0,
+        28.0,
+        0.0
+      ],
+      "zone_id": "zone_003",
+      "unit": "W",
+      "normal_range": [
+        600.0,
+        4800.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781604",
+      "last_reading_time": "2025-08-14T17:00:04.822772",
+      "readings_count": 5,
+      "current_value": 4992.356530865805
+    },
+    "energy_voltage_003": {
+      "id": "energy_voltage_003",
+      "name": "Voltage Meter - Open Office 1A",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        28.0,
+        28.0,
+        0.5
+      ],
+      "zone_id": "zone_003",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781605",
+      "last_reading_time": "2025-08-14T17:00:04.822790",
+      "readings_count": 5,
+      "current_value": 223.34857723715453
+    },
+    "hvac_temp_004": {
+      "id": "hvac_temp_004",
+      "name": "Temperature - Kitchen",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        10.92541237850422,
+        12.65471611689757,
+        2.5
+      ],
+      "zone_id": "zone_004",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781625",
+      "last_reading_time": "2025-08-14T17:00:04.822809",
+      "readings_count": 5,
+      "current_value": 28.526474317298934
+    },
+    "hvac_humid_004": {
+      "id": "hvac_humid_004",
+      "name": "Humidity - Kitchen",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        12.742868546050572,
+        10.610613107308101,
+        2.5
+      ],
+      "zone_id": "zone_004",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781626",
+      "last_reading_time": "2025-08-14T17:00:04.822842",
+      "readings_count": 5,
+      "current_value": 46.57749822889452
+    },
+    "hvac_aqi_004": {
+      "id": "hvac_aqi_004",
+      "name": "Air Quality - Kitchen",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        11.00725565164769,
+        13.004022231942628,
+        2.5
+      ],
+      "zone_id": "zone_004",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781628",
+      "last_reading_time": "2025-08-14T17:00:04.822860",
+      "readings_count": 5,
+      "current_value": 36.1208901239944
+    },
+    "light_lux_004": {
+      "id": "light_lux_004",
+      "name": "Illuminance - Kitchen",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        2.8
+      ],
+      "zone_id": "zone_004",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781629",
+      "last_reading_time": "2025-08-14T17:00:04.822879",
+      "readings_count": 5,
+      "current_value": 260.60092112824464
+    },
+    "light_energy_004": {
+      "id": "light_energy_004",
+      "name": "Lighting Energy - Kitchen",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        3.0
+      ],
+      "zone_id": "zone_004",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781630",
+      "last_reading_time": "2025-08-14T17:00:04.822899",
+      "readings_count": 5,
+      "current_value": 9.140747334147092
+    },
+    "occupancy_count_004": {
+      "id": "occupancy_count_004",
+      "name": "People Count - Kitchen",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        2.2
+      ],
+      "zone_id": "zone_004",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        15.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781631",
+      "last_reading_time": "2025-08-14T17:00:04.822915",
+      "readings_count": 5,
+      "current_value": 12.981532158406823
+    },
+    "occupancy_motion_004": {
+      "id": "occupancy_motion_004",
+      "name": "Motion Detection - Kitchen",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        17.0,
+        17.0,
+        2.5
+      ],
+      "zone_id": "zone_004",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781633",
+      "last_reading_time": "2025-08-14T17:00:04.822926",
+      "readings_count": 5,
+      "current_value": 0.12004129200000001
+    },
+    "energy_power_004": {
+      "id": "energy_power_004",
+      "name": "Power Meter - Kitchen",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        13.0,
+        13.0,
+        0.0
+      ],
+      "zone_id": "zone_004",
+      "unit": "W",
+      "normal_range": [
+        480.0,
+        3840.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781634",
+      "last_reading_time": "2025-08-14T17:00:04.822943",
+      "readings_count": 5,
+      "current_value": 4298.448277251463
+    },
+    "energy_voltage_004": {
+      "id": "energy_voltage_004",
+      "name": "Voltage Meter - Kitchen",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        13.0,
+        13.0,
+        0.5
+      ],
+      "zone_id": "zone_004",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781635",
+      "last_reading_time": "2025-08-14T17:00:04.822960",
+      "readings_count": 5,
+      "current_value": 230.2578378807012
+    },
+    "hvac_temp_005": {
+      "id": "hvac_temp_005",
+      "name": "Temperature - Server Room",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        11.838936481075226,
+        13.401162385890867,
+        2.5
+      ],
+      "zone_id": "zone_005",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781654",
+      "last_reading_time": "2025-08-14T17:00:04.823052",
+      "readings_count": 5,
+      "current_value": 27.442232770668248
+    },
+    "hvac_humid_005": {
+      "id": "hvac_humid_005",
+      "name": "Humidity - Server Room",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        7.100930145411807,
+        14.727571448211465,
+        2.5
+      ],
+      "zone_id": "zone_005",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781655",
+      "last_reading_time": "2025-08-14T17:00:04.823077",
+      "readings_count": 5,
+      "current_value": 35.69267537425433
+    },
+    "hvac_aqi_005": {
+      "id": "hvac_aqi_005",
+      "name": "Air Quality - Server Room",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        9.008404357176094,
+        13.686886103258265,
+        2.5
+      ],
+      "zone_id": "zone_005",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781656",
+      "last_reading_time": "2025-08-14T17:00:04.823096",
+      "readings_count": 5,
+      "current_value": 40.0181747239746
+    },
+    "light_lux_005": {
+      "id": "light_lux_005",
+      "name": "Illuminance - Server Room",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        2.8
+      ],
+      "zone_id": "zone_005",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781658",
+      "last_reading_time": "2025-08-14T17:00:04.823115",
+      "readings_count": 5,
+      "current_value": 312.8545301674124
+    },
+    "light_energy_005": {
+      "id": "light_energy_005",
+      "name": "Lighting Energy - Server Room",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        3.0
+      ],
+      "zone_id": "zone_005",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781659",
+      "last_reading_time": "2025-08-14T17:00:04.823135",
+      "readings_count": 5,
+      "current_value": 9.501802890852021
+    },
+    "occupancy_count_005": {
+      "id": "occupancy_count_005",
+      "name": "People Count - Server Room",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        2.2
+      ],
+      "zone_id": "zone_005",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        5.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781660",
+      "last_reading_time": "2025-08-14T17:00:04.823146",
+      "readings_count": 5,
+      "current_value": 3.138369803333487
+    },
+    "occupancy_motion_005": {
+      "id": "occupancy_motion_005",
+      "name": "Motion Detection - Server Room",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        12.0,
+        12.0,
+        2.5
+      ],
+      "zone_id": "zone_005",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781661",
+      "last_reading_time": "2025-08-14T17:00:04.823158",
+      "readings_count": 5,
+      "current_value": 0.120041496
+    },
+    "energy_power_005": {
+      "id": "energy_power_005",
+      "name": "Power Meter - Server Room",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        8.0,
+        8.0,
+        0.0
+      ],
+      "zone_id": "zone_005",
+      "unit": "W",
+      "normal_range": [
+        1000.0,
+        8000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781663",
+      "last_reading_time": "2025-08-14T17:00:04.823176",
+      "readings_count": 5,
+      "current_value": 7285.815931829833
+    },
+    "energy_voltage_005": {
+      "id": "energy_voltage_005",
+      "name": "Voltage Meter - Server Room",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        8.0,
+        8.0,
+        0.5
+      ],
+      "zone_id": "zone_005",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781664",
+      "last_reading_time": "2025-08-14T17:00:04.823192",
+      "readings_count": 5,
+      "current_value": 221.74369389405808
+    },
+    "hvac_temp_006": {
+      "id": "hvac_temp_006",
+      "name": "Temperature - Open Office 2A",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        38.14217691082139,
+        39.92168657058291,
+        5.5
+      ],
+      "zone_id": "zone_006",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781682",
+      "last_reading_time": "2025-08-14T17:00:04.823211",
+      "readings_count": 5,
+      "current_value": 28.1024438335812
+    },
+    "hvac_humid_006": {
+      "id": "hvac_humid_006",
+      "name": "Humidity - Open Office 2A",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        43.04512627214153,
+        41.74260483935731,
+        5.5
+      ],
+      "zone_id": "zone_006",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781683",
+      "last_reading_time": "2025-08-14T17:00:04.823235",
+      "readings_count": 5,
+      "current_value": 52.224078432657706
+    },
+    "hvac_aqi_006": {
+      "id": "hvac_aqi_006",
+      "name": "Air Quality - Open Office 2A",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        39.31099209507381,
+        43.777186949757024,
+        5.5
+      ],
+      "zone_id": "zone_006",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781684",
+      "last_reading_time": "2025-08-14T17:00:04.823254",
+      "readings_count": 5,
+      "current_value": 40.68360860027219
+    },
+    "light_lux_006": {
+      "id": "light_lux_006",
+      "name": "Illuminance - Open Office 2A",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        40.0,
+        40.0,
+        5.8
+      ],
+      "zone_id": "zone_006",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781685",
+      "last_reading_time": "2025-08-14T17:00:04.823272",
+      "readings_count": 5,
+      "current_value": 254.15582650321255
+    },
+    "light_energy_006": {
+      "id": "light_energy_006",
+      "name": "Lighting Energy - Open Office 2A",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        40.0,
+        40.0,
+        6.0
+      ],
+      "zone_id": "zone_006",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781686",
+      "last_reading_time": "2025-08-14T17:00:04.823292",
+      "readings_count": 5,
+      "current_value": 12.955908433541492
+    },
+    "occupancy_count_006": {
+      "id": "occupancy_count_006",
+      "name": "People Count - Open Office 2A",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        40.0,
+        40.0,
+        5.2
+      ],
+      "zone_id": "zone_006",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        50.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781687",
+      "last_reading_time": "2025-08-14T17:00:04.823303",
+      "readings_count": 5,
+      "current_value": 41.04328108210636
+    },
+    "occupancy_motion_006": {
+      "id": "occupancy_motion_006",
+      "name": "Motion Detection - Open Office 2A",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        42.0,
+        42.0,
+        5.5
+      ],
+      "zone_id": "zone_006",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781689",
+      "last_reading_time": "2025-08-14T17:00:04.823316",
+      "readings_count": 5,
+      "current_value": 1.1300143377738288
+    },
+    "energy_power_006": {
+      "id": "energy_power_006",
+      "name": "Power Meter - Open Office 2A",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        38.0,
+        38.0,
+        3.0
+      ],
+      "zone_id": "zone_006",
+      "unit": "W",
+      "normal_range": [
+        800.0,
+        6400.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781690",
+      "last_reading_time": "2025-08-14T17:00:04.823332",
+      "readings_count": 5,
+      "current_value": 6893.015683787726
+    },
+    "energy_voltage_006": {
+      "id": "energy_voltage_006",
+      "name": "Voltage Meter - Open Office 2A",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        38.0,
+        38.0,
+        3.5
+      ],
+      "zone_id": "zone_006",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781691",
+      "last_reading_time": "2025-08-14T17:00:04.823349",
+      "readings_count": 5,
+      "current_value": 230.49261021117798
+    },
+    "hvac_temp_007": {
+      "id": "hvac_temp_007",
+      "name": "Temperature - Open Office 2B",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        42.57550901506796,
+        58.16053755878128,
+        5.5
+      ],
+      "zone_id": "zone_007",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781708",
+      "last_reading_time": "2025-08-14T17:00:04.823369",
+      "readings_count": 5,
+      "current_value": 29.416524250294355
+    },
+    "hvac_humid_007": {
+      "id": "hvac_humid_007",
+      "name": "Humidity - Open Office 2B",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        42.30982154325217,
+        56.511366250066075,
+        5.5
+      ],
+      "zone_id": "zone_007",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781709",
+      "last_reading_time": "2025-08-14T17:00:04.823393",
+      "readings_count": 5,
+      "current_value": 42.276855216391525
+    },
+    "hvac_aqi_007": {
+      "id": "hvac_aqi_007",
+      "name": "Air Quality - Open Office 2B",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        44.89934722767133,
+        61.28132802782506,
+        5.5
+      ],
+      "zone_id": "zone_007",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781710",
+      "last_reading_time": "2025-08-14T17:00:04.823422",
+      "readings_count": 5,
+      "current_value": 51.155144010291316
+    },
+    "light_lux_007": {
+      "id": "light_lux_007",
+      "name": "Illuminance - Open Office 2B",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        40.0,
+        60.0,
+        5.8
+      ],
+      "zone_id": "zone_007",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781712",
+      "last_reading_time": "2025-08-14T17:00:04.823441",
+      "readings_count": 5,
+      "current_value": 261.0949275246214
+    },
+    "light_energy_007": {
+      "id": "light_energy_007",
+      "name": "Lighting Energy - Open Office 2B",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        40.0,
+        60.0,
+        6.0
+      ],
+      "zone_id": "zone_007",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781713",
+      "last_reading_time": "2025-08-14T17:00:04.823469",
+      "readings_count": 5,
+      "current_value": 8.256328825683287
+    },
+    "occupancy_count_007": {
+      "id": "occupancy_count_007",
+      "name": "People Count - Open Office 2B",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        40.0,
+        60.0,
+        5.2
+      ],
+      "zone_id": "zone_007",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        50.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781714",
+      "last_reading_time": "2025-08-14T17:00:04.823481",
+      "readings_count": 5,
+      "current_value": 37.308780253259215
+    },
+    "occupancy_motion_007": {
+      "id": "occupancy_motion_007",
+      "name": "Motion Detection - Open Office 2B",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        42.0,
+        62.0,
+        5.5
+      ],
+      "zone_id": "zone_007",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781715",
+      "last_reading_time": "2025-08-14T17:00:04.823492",
+      "readings_count": 5,
+      "current_value": 0.120041776
+    },
+    "energy_power_007": {
+      "id": "energy_power_007",
+      "name": "Power Meter - Open Office 2B",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        38.0,
+        58.0,
+        3.0
+      ],
+      "zone_id": "zone_007",
+      "unit": "W",
+      "normal_range": [
+        800.0,
+        6400.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781717",
+      "last_reading_time": "2025-08-14T17:00:04.823509",
+      "readings_count": 5,
+      "current_value": 6669.445594019166
+    },
+    "energy_voltage_007": {
+      "id": "energy_voltage_007",
+      "name": "Voltage Meter - Open Office 2B",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        38.0,
+        58.0,
+        3.5
+      ],
+      "zone_id": "zone_007",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781718",
+      "last_reading_time": "2025-08-14T17:00:04.823525",
+      "readings_count": 5,
+      "current_value": 228.33762772186927
+    },
+    "hvac_temp_008": {
+      "id": "hvac_temp_008",
+      "name": "Temperature - Conference Room B",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        19.417380174916573,
+        15.534449333118143,
+        5.5
+      ],
+      "zone_id": "zone_008",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781736",
+      "last_reading_time": "2025-08-14T17:00:04.823543",
+      "readings_count": 5,
+      "current_value": 28.683320483867842
+    },
+    "hvac_humid_008": {
+      "id": "hvac_humid_008",
+      "name": "Humidity - Conference Room B",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        24.81774983687034,
+        15.61717960668306,
+        5.5
+      ],
+      "zone_id": "zone_008",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781737",
+      "last_reading_time": "2025-08-14T17:00:04.823570",
+      "readings_count": 5,
+      "current_value": 45.43088550153958
+    },
+    "hvac_aqi_008": {
+      "id": "hvac_aqi_008",
+      "name": "Air Quality - Conference Room B",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        21.55997186622015,
+        15.865883166522458,
+        5.5
+      ],
+      "zone_id": "zone_008",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781738",
+      "last_reading_time": "2025-08-14T17:00:04.823588",
+      "readings_count": 5,
+      "current_value": 36.67299520987984
+    },
+    "light_lux_008": {
+      "id": "light_lux_008",
+      "name": "Illuminance - Conference Room B",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        20.0,
+        20.0,
+        5.8
+      ],
+      "zone_id": "zone_008",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781739",
+      "last_reading_time": "2025-08-14T17:00:04.823613",
+      "readings_count": 5,
+      "current_value": 377.7306135214004
+    },
+    "light_energy_008": {
+      "id": "light_energy_008",
+      "name": "Lighting Energy - Conference Room B",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        20.0,
+        20.0,
+        6.0
+      ],
+      "zone_id": "zone_008",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781740",
+      "last_reading_time": "2025-08-14T17:00:04.823633",
+      "readings_count": 5,
+      "current_value": 9.721582585031134
+    },
+    "occupancy_count_008": {
+      "id": "occupancy_count_008",
+      "name": "People Count - Conference Room B",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        20.0,
+        20.0,
+        5.2
+      ],
+      "zone_id": "zone_008",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        25.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781742",
+      "last_reading_time": "2025-08-14T17:00:04.823644",
+      "readings_count": 5,
+      "current_value": 23.24586874617245
+    },
+    "occupancy_motion_008": {
+      "id": "occupancy_motion_008",
+      "name": "Motion Detection - Conference Room B",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        22.0,
+        22.0,
+        5.5
+      ],
+      "zone_id": "zone_008",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781743",
+      "last_reading_time": "2025-08-14T17:00:04.823657",
+      "readings_count": 5,
+      "current_value": 1.1085045740569965
+    },
+    "energy_power_008": {
+      "id": "energy_power_008",
+      "name": "Power Meter - Conference Room B",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        18.0,
+        18.0,
+        3.0
+      ],
+      "zone_id": "zone_008",
+      "unit": "W",
+      "normal_range": [
+        240.0,
+        1920.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781744",
+      "last_reading_time": "2025-08-14T17:00:04.823674",
+      "readings_count": 5,
+      "current_value": 2013.545935355722
+    },
+    "energy_voltage_008": {
+      "id": "energy_voltage_008",
+      "name": "Voltage Meter - Conference Room B",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        18.0,
+        18.0,
+        3.5
+      ],
+      "zone_id": "zone_008",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781745",
+      "last_reading_time": "2025-08-14T17:00:04.823691",
+      "readings_count": 5,
+      "current_value": 224.75450885739414
+    },
+    "hvac_temp_009": {
+      "id": "hvac_temp_009",
+      "name": "Temperature - Break Room",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        14.854917385166623,
+        12.365354740090591,
+        5.5
+      ],
+      "zone_id": "zone_009",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781762",
+      "last_reading_time": "2025-08-14T17:00:04.823710",
+      "readings_count": 5,
+      "current_value": 28.638566566990363
+    },
+    "hvac_humid_009": {
+      "id": "hvac_humid_009",
+      "name": "Humidity - Break Room",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        7.914939011189984,
+        14.871511142817983,
+        5.5
+      ],
+      "zone_id": "zone_009",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781763",
+      "last_reading_time": "2025-08-14T17:00:04.823734",
+      "readings_count": 5,
+      "current_value": 40.35852361175655
+    },
+    "hvac_aqi_009": {
+      "id": "hvac_aqi_009",
+      "name": "Air Quality - Break Room",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        12.06229867355946,
+        10.789193681193225,
+        5.5
+      ],
+      "zone_id": "zone_009",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781765",
+      "last_reading_time": "2025-08-14T17:00:04.823752",
+      "readings_count": 5,
+      "current_value": 57.183424650722976
+    },
+    "light_lux_009": {
+      "id": "light_lux_009",
+      "name": "Illuminance - Break Room",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        12.0,
+        12.0,
+        5.8
+      ],
+      "zone_id": "zone_009",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781766",
+      "last_reading_time": "2025-08-14T17:00:04.823770",
+      "readings_count": 5,
+      "current_value": 318.7397931156881
+    },
+    "light_energy_009": {
+      "id": "light_energy_009",
+      "name": "Lighting Energy - Break Room",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        12.0,
+        12.0,
+        6.0
+      ],
+      "zone_id": "zone_009",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781767",
+      "last_reading_time": "2025-08-14T17:00:04.823790",
+      "readings_count": 5,
+      "current_value": 11.177951182292022
+    },
+    "occupancy_count_009": {
+      "id": "occupancy_count_009",
+      "name": "People Count - Break Room",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        12.0,
+        12.0,
+        5.2
+      ],
+      "zone_id": "zone_009",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        10.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781768",
+      "last_reading_time": "2025-08-14T17:00:04.823801",
+      "readings_count": 5,
+      "current_value": 7.173039230449122
+    },
+    "occupancy_motion_009": {
+      "id": "occupancy_motion_009",
+      "name": "Motion Detection - Break Room",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        14.0,
+        14.0,
+        5.5
+      ],
+      "zone_id": "zone_009",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781769",
+      "last_reading_time": "2025-08-14T17:00:04.823813",
+      "readings_count": 5,
+      "current_value": 1.1258042945003985
+    },
+    "energy_power_009": {
+      "id": "energy_power_009",
+      "name": "Power Meter - Break Room",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        3.0
+      ],
+      "zone_id": "zone_009",
+      "unit": "W",
+      "normal_range": [
+        120.0,
+        960.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781771",
+      "last_reading_time": "2025-08-14T17:00:04.823829",
+      "readings_count": 5,
+      "current_value": 870.2474933430028
+    },
+    "energy_voltage_009": {
+      "id": "energy_voltage_009",
+      "name": "Voltage Meter - Break Room",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        10.0,
+        10.0,
+        3.5
+      ],
+      "zone_id": "zone_009",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781772",
+      "last_reading_time": "2025-08-14T17:00:04.823845",
+      "readings_count": 5,
+      "current_value": 227.29822401719636
+    },
+    "hvac_temp_010": {
+      "id": "hvac_temp_010",
+      "name": "Temperature - Executive Offices",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        27.745951223563896,
+        28.95435370937685,
+        8.5
+      ],
+      "zone_id": "zone_010",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781792",
+      "last_reading_time": "2025-08-14T17:00:04.823863",
+      "readings_count": 5,
+      "current_value": 28.30588493081561
+    },
+    "hvac_humid_010": {
+      "id": "hvac_humid_010",
+      "name": "Humidity - Executive Offices",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        34.886449854866314,
+        26.148406886604118,
+        8.5
+      ],
+      "zone_id": "zone_010",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781794",
+      "last_reading_time": "2025-08-14T17:00:04.823887",
+      "readings_count": 5,
+      "current_value": 41.93539765354152
+    },
+    "hvac_aqi_010": {
+      "id": "hvac_aqi_010",
+      "name": "Air Quality - Executive Offices",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        28.54731879883851,
+        32.42787975535149,
+        8.5
+      ],
+      "zone_id": "zone_010",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781796",
+      "last_reading_time": "2025-08-14T17:00:04.823906",
+      "readings_count": 5,
+      "current_value": 60.32259964098769
+    },
+    "light_lux_010": {
+      "id": "light_lux_010",
+      "name": "Illuminance - Executive Offices",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        8.8
+      ],
+      "zone_id": "zone_010",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781797",
+      "last_reading_time": "2025-08-14T17:00:04.823929",
+      "readings_count": 5,
+      "current_value": 309.8988952341388
+    },
+    "light_energy_010": {
+      "id": "light_energy_010",
+      "name": "Lighting Energy - Executive Offices",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        9.0
+      ],
+      "zone_id": "zone_010",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781798",
+      "last_reading_time": "2025-08-14T17:00:04.823949",
+      "readings_count": 5,
+      "current_value": 13.357615447562793
+    },
+    "occupancy_count_010": {
+      "id": "occupancy_count_010",
+      "name": "People Count - Executive Offices",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        30.0,
+        30.0,
+        8.2
+      ],
+      "zone_id": "zone_010",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        20.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781799",
+      "last_reading_time": "2025-08-14T17:00:04.823963",
+      "readings_count": 5,
+      "current_value": 17.075007371261744
+    },
+    "occupancy_motion_010": {
+      "id": "occupancy_motion_010",
+      "name": "Motion Detection - Executive Offices",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        32.0,
+        32.0,
+        8.5
+      ],
+      "zone_id": "zone_010",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781800",
+      "last_reading_time": "2025-08-14T17:00:04.823977",
+      "readings_count": 5,
+      "current_value": 1.1140513145837634
+    },
+    "energy_power_010": {
+      "id": "energy_power_010",
+      "name": "Power Meter - Executive Offices",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        28.0,
+        28.0,
+        6.0
+      ],
+      "zone_id": "zone_010",
+      "unit": "W",
+      "normal_range": [
+        600.0,
+        4800.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781802",
+      "last_reading_time": "2025-08-14T17:00:04.823999",
+      "readings_count": 5,
+      "current_value": 4956.588290520972
+    },
+    "energy_voltage_010": {
+      "id": "energy_voltage_010",
+      "name": "Voltage Meter - Executive Offices",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        28.0,
+        28.0,
+        6.5
+      ],
+      "zone_id": "zone_010",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781803",
+      "last_reading_time": "2025-08-14T17:00:04.824016",
+      "readings_count": 5,
+      "current_value": 222.80005993774824
+    },
+    "hvac_temp_011": {
+      "id": "hvac_temp_011",
+      "name": "Temperature - Board Room",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        29.678563525426654,
+        28.670508275084437,
+        8.5
+      ],
+      "zone_id": "zone_011",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781821",
+      "last_reading_time": "2025-08-14T17:00:04.824034",
+      "readings_count": 5,
+      "current_value": 28.497290800456014
+    },
+    "hvac_humid_011": {
+      "id": "hvac_humid_011",
+      "name": "Humidity - Board Room",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        21.038313233986287,
+        21.359363293704224,
+        8.5
+      ],
+      "zone_id": "zone_011",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781823",
+      "last_reading_time": "2025-08-14T17:00:04.824060",
+      "readings_count": 5,
+      "current_value": 36.26063497430139
+    },
+    "hvac_aqi_011": {
+      "id": "hvac_aqi_011",
+      "name": "Air Quality - Board Room",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        25.32209391900924,
+        21.267478525310963,
+        8.5
+      ],
+      "zone_id": "zone_011",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781824",
+      "last_reading_time": "2025-08-14T17:00:04.824079",
+      "readings_count": 5,
+      "current_value": 54.64240059857472
+    },
+    "light_lux_011": {
+      "id": "light_lux_011",
+      "name": "Illuminance - Board Room",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        8.8
+      ],
+      "zone_id": "zone_011",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781825",
+      "last_reading_time": "2025-08-14T17:00:04.824098",
+      "readings_count": 5,
+      "current_value": 325.0951475217908
+    },
+    "light_energy_011": {
+      "id": "light_energy_011",
+      "name": "Lighting Energy - Board Room",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        9.0
+      ],
+      "zone_id": "zone_011",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781826",
+      "last_reading_time": "2025-08-14T17:00:04.824117",
+      "readings_count": 5,
+      "current_value": 13.756527592143538
+    },
+    "occupancy_count_011": {
+      "id": "occupancy_count_011",
+      "name": "People Count - Board Room",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        25.0,
+        25.0,
+        8.2
+      ],
+      "zone_id": "zone_011",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        30.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781828",
+      "last_reading_time": "2025-08-14T17:00:04.824128",
+      "readings_count": 5,
+      "current_value": 22.047753634490658
+    },
+    "occupancy_motion_011": {
+      "id": "occupancy_motion_011",
+      "name": "Motion Detection - Board Room",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        27.0,
+        27.0,
+        8.5
+      ],
+      "zone_id": "zone_011",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781829",
+      "last_reading_time": "2025-08-14T17:00:04.824139",
+      "readings_count": 5,
+      "current_value": 0.120042309
+    },
+    "energy_power_011": {
+      "id": "energy_power_011",
+      "name": "Power Meter - Board Room",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        23.0,
+        23.0,
+        6.0
+      ],
+      "zone_id": "zone_011",
+      "unit": "W",
+      "normal_range": [
+        300.0,
+        2400.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781830",
+      "last_reading_time": "2025-08-14T17:00:04.824155",
+      "readings_count": 5,
+      "current_value": 2489.090087069019
+    },
+    "energy_voltage_011": {
+      "id": "energy_voltage_011",
+      "name": "Voltage Meter - Board Room",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        23.0,
+        23.0,
+        6.5
+      ],
+      "zone_id": "zone_011",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781831",
+      "last_reading_time": "2025-08-14T17:00:04.824170",
+      "readings_count": 5,
+      "current_value": 227.2814358819795
+    },
+    "hvac_temp_012": {
+      "id": "hvac_temp_012",
+      "name": "Temperature - Storage",
+      "type": "hvac_temperature",
+      "status": "active",
+      "position": [
+        16.195868408379102,
+        14.79753918094606,
+        8.5
+      ],
+      "zone_id": "zone_012",
+      "unit": "\u00b0C",
+      "normal_range": [
+        18.0,
+        26.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781849",
+      "last_reading_time": "2025-08-14T17:00:04.824189",
+      "readings_count": 5,
+      "current_value": 28.81050260857754
+    },
+    "hvac_humid_012": {
+      "id": "hvac_humid_012",
+      "name": "Humidity - Storage",
+      "type": "hvac_humidity",
+      "status": "active",
+      "position": [
+        18.10323496544381,
+        18.512471816974404,
+        8.5
+      ],
+      "zone_id": "zone_012",
+      "unit": "%",
+      "normal_range": [
+        30.0,
+        70.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781850",
+      "last_reading_time": "2025-08-14T17:00:04.824216",
+      "readings_count": 5,
+      "current_value": 40.69528413260029
+    },
+    "hvac_aqi_012": {
+      "id": "hvac_aqi_012",
+      "name": "Air Quality - Storage",
+      "type": "hvac_air_quality",
+      "status": "active",
+      "position": [
+        11.606472826432833,
+        19.974238508574423,
+        8.5
+      ],
+      "zone_id": "zone_012",
+      "unit": "AQI",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781851",
+      "last_reading_time": "2025-08-14T17:00:04.824234",
+      "readings_count": 5,
+      "current_value": 52.99715673476892
+    },
+    "light_lux_012": {
+      "id": "light_lux_012",
+      "name": "Illuminance - Storage",
+      "type": "lighting_illuminance",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        8.8
+      ],
+      "zone_id": "zone_012",
+      "unit": "lux",
+      "normal_range": [
+        50.0,
+        1000.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781852",
+      "last_reading_time": "2025-08-14T17:00:04.824253",
+      "readings_count": 5,
+      "current_value": 358.9983459240677
+    },
+    "light_energy_012": {
+      "id": "light_energy_012",
+      "name": "Lighting Energy - Storage",
+      "type": "lighting_energy",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        9.0
+      ],
+      "zone_id": "zone_012",
+      "unit": "W",
+      "normal_range": [
+        0.0,
+        100.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781853",
+      "last_reading_time": "2025-08-14T17:00:04.824272",
+      "readings_count": 5,
+      "current_value": 15.389422731243402
+    },
+    "occupancy_count_012": {
+      "id": "occupancy_count_012",
+      "name": "People Count - Storage",
+      "type": "occupancy_people_count",
+      "status": "active",
+      "position": [
+        15.0,
+        15.0,
+        8.2
+      ],
+      "zone_id": "zone_012",
+      "unit": "people",
+      "normal_range": [
+        0.0,
+        5.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781855",
+      "last_reading_time": "2025-08-14T17:00:04.824283",
+      "readings_count": 5,
+      "current_value": 5.126838740307715
+    },
+    "occupancy_motion_012": {
+      "id": "occupancy_motion_012",
+      "name": "Motion Detection - Storage",
+      "type": "occupancy_motion",
+      "status": "active",
+      "position": [
+        17.0,
+        17.0,
+        8.5
+      ],
+      "zone_id": "zone_012",
+      "unit": "boolean",
+      "normal_range": [
+        0.0,
+        1.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781856",
+      "last_reading_time": "2025-08-14T17:00:04.824294",
+      "readings_count": 5,
+      "current_value": 1.1139273319025238
+    },
+    "energy_power_012": {
+      "id": "energy_power_012",
+      "name": "Power Meter - Storage",
+      "type": "energy_power",
+      "status": "active",
+      "position": [
+        13.0,
+        13.0,
+        6.0
+      ],
+      "zone_id": "zone_012",
+      "unit": "W",
+      "normal_range": [
+        200.0,
+        1600.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781857",
+      "last_reading_time": "2025-08-14T17:00:04.824311",
+      "readings_count": 5,
+      "current_value": 1906.2895372980415
+    },
+    "energy_voltage_012": {
+      "id": "energy_voltage_012",
+      "name": "Voltage Meter - Storage",
+      "type": "energy_voltage",
+      "status": "active",
+      "position": [
+        13.0,
+        13.0,
+        6.5
+      ],
+      "zone_id": "zone_012",
+      "unit": "V",
+      "normal_range": [
+        220.0,
+        240.0
+      ],
+      "accuracy": 0.95,
+      "sampling_rate": 60,
+      "created_at": "2025-08-14T16:58:04.781858",
+      "last_reading_time": "2025-08-14T17:00:04.824327",
+      "readings_count": 5,
+      "current_value": 227.63052475880838
+    }
+  }
+}

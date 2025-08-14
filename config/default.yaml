@@ -1,0 +1,81 @@
+# Smart Building Energy Management System Configuration
+
+# Building Configuration
+building:
+  name: "Demo Office Building"
+  address: "123 Smart Street, Tech City"
+  total_area: 5000.0  # square meters
+  floors: 3
+  building_type: "office"
+  energy_rating: "B"
+  timezone: "UTC"
+
+# Monitoring Configuration  
+monitoring:
+  sampling_interval: 60      # seconds between sensor readings
+  anomaly_check_interval: 300 # seconds between anomaly detection runs
+  auto_start: true
+  save_history: true
+  max_history_size: 10000
+  enable_alerts: true
+  alert_threshold: "medium"   # low, medium, high, critical
+
+# Anomaly Detection Configuration
+anomaly_detection:
+  window_size: 50
+  contamination: 0.05        # expected proportion of anomalies
+  min_samples_for_detection: 20
+  network_analysis: true
+  energy_spike_threshold: 2.0 # standard deviations
+  efficiency_drop_threshold: 0.3 # 30% efficiency drop
+
+# Database Configuration (if using database storage)
+database:
+  url: "sqlite:///sbems.db"
+  echo: false
+  pool_size: 5
+
+# API Configuration
+api:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
+  cors_enabled: true
+
+# Web Dashboard Configuration  
+web:
+  host: "0.0.0.0"
+  port: 8080
+  debug: false
+
+# Logging Configuration
+logging:
+  level: "INFO"           # DEBUG, INFO, WARNING, ERROR
+  format: "detailed"      # simple, detailed, json
+  file: "logs/sbems.log"
+  max_size: "10 MB"
+  backup_count: 5
+
+# Alert Configuration
+alerts:
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+    username: ""
+    password: ""
+    recipients: []
+  
+  sms:
+    enabled: false
+    service: "twilio"
+    account_sid: ""
+    auth_token: ""
+    from_number: ""
+    to_numbers: []
+
+# Performance Configuration
+performance:
+  enable_metrics: true
+  metrics_port: 9090
+  enable_profiling: false
